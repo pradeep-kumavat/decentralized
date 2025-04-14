@@ -1,11 +1,9 @@
-
-
     import React, { useState, useEffect } from "react";
     import { ethers } from "ethers";
     import './App.css';
     
     function App() {
-      const CONTRACT_ADDRESS = "0x788ff72228dafb0eca5c8c6d8e2d3de1d7324c43";    //0xc7499436241d97f3a6c6718389652bf6faa95653
+      const CONTRACT_ADDRESS = "0xf711dee5c44d04473ce3414de9d1813ed9e1588d";    //my deployed contract address
       const ABI = [
         {
           "inputs": [
